@@ -8,9 +8,6 @@ public class player : MonoBehaviour {
     public GameObject[] focos;
     public int velocidad;
 
-
-
-
     // Use this for initialization
     void Start()
     {
@@ -48,7 +45,6 @@ public class player : MonoBehaviour {
         {
             encendido = true;
             Debug.Log("Luces encendidas");
-
         }
     }
 
@@ -57,7 +53,6 @@ public class player : MonoBehaviour {
     {
         foreach (var foco in focos)
         {
-
 
             if (encendido)
             {

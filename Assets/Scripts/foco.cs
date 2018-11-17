@@ -20,8 +20,8 @@ public class foco : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        GameObject.FindObjectOfType<SceneMgr>().CambiarScena(0);
         
-        Debug.Log("Has perdido");
     }
 
 }
